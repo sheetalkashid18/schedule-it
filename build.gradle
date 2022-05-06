@@ -8,10 +8,8 @@ buildscript {
 
     }
     dependencies {
-
         // Add this line
         classpath 'com.google.gms:google-services:4.3.10'
-
     }
 }
 
@@ -21,13 +19,12 @@ plugins {
 }
 
 allprojects {
-
     repositories {
 //        maven { url 'http://repo1.maven.org/maven2' }
         jcenter()
         // Check that you have the following line (if not, add it):
+        jcenter()
         google()  // Google's Maven repository
-
     }
 }
 
